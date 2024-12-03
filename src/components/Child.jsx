@@ -1,6 +1,8 @@
-function Child() {
+function Child({text,color}) {
   return (
-    <div>Child</div>
+    <div>
+      <p style={{color:color}}>{text}</p>
+    </div>
   )
 }
 export default Child
