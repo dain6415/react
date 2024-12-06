@@ -1,0 +1,18 @@
+img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.card {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 50px;
+}
+.profile {
+  width: 200px;
+  min-width: 120px;
+  padding: 1rem;
+  background: #eee;
+  box-shadow: 1px 1px .5 black;
+  border-radius: 10px;
+}

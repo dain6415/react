@@ -1,0 +1,19 @@
+button{
+  background: transparent;
+  color: #fff;
+  border: none;
+  padding: 14px 27px;
+  border-radius: 999px;
+  font-size: 17px;
+  cursor: pointer;
+  background:rgba(0, 89, 11, .5);
+}
+
+button.blue{
+  background: rgba(0, 89, 255, .2);
+  border: 1px solid #7090ff;
+}
+button.red{
+  background: rgba(255, 78, 78, .2);
+  border: 1px solid #ff0909;
+}

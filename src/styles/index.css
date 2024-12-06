@@ -1,1 +1,26 @@
-*{margin: 0;padding: 0;}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #191f2c;
+  color: #fff;
+  font-size: 20px;
+}
+
+.App_btn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.App-container {
+  width: 300px;
+  margin: 100px auto;
+}
+.App-board {
+  display: flex;
+  justify-content: space-between;
+}
